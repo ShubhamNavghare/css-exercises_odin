@@ -1,0 +1,14 @@
+.read,
+.unread {
+    font-size: 50px;
+}
+
+.read{
+    background-color: black;
+    color: white;
+}
+
+.unread{
+    background-color: yellow;
+    color: black;
+}
