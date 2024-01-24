@@ -11,19 +11,17 @@ img {
 .title {
   font-size: 36px;
   font-weight: 900;
-  margin: auto;
+  margin-bottom: 32px;
 }
 
 .container{
   display: flex;
-  justify-content: space-evenly;
-  align-items: center ;
-  gap: 40px;
+  justify-content: center;
+  gap: 52px;
 }
 
-.text{
-  text-wrap: wrap;
-  width: 200px;
+.info{
+  max-width: 200px;
 }
 
 /* do not edit this footer */
