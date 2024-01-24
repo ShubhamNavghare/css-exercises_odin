@@ -14,7 +14,7 @@ body {
   box-shadow: 0 0 8px rgba(0,0,0,.1);
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  padding: 8px;
   
 }
 
@@ -59,20 +59,21 @@ a {
 ul {
   list-style-type: none;
   display: flex;
-  justify-content: start;
-  gap: 10px;
+  margin: 0;
+  padding: 0;
+  gap: 16px;
 }
 
 .left{
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
+  gap: 16px;
   align-items: center;
-
 }
 
 .right{
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
+  gap: 16px;
   align-items: center;
-  flex-shrink: 1;
 }
